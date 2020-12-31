@@ -35,13 +35,13 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Add                              |
 |       ✅       | Link                             |
 |       ✅       | Link Grup                        |
-|       ✅       | Quran                            |
+|       ✅       | Ss (web)                         |
 |       ✅       | Pengumuman                       |
 |       ✅       | List Online                      |
 |       ✅       | Fitnah Reply                     |
 |       ✅       | Jadi Bot Cepat                   |
 |       ✅       | Advanced                         |
-|       ✅       | Undefined                        |
+|       ✅       | Prefix Random                    |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
 
