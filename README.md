@@ -28,20 +28,20 @@ Sebelum lu jalanin sc nya install dulu lah.
 
 | NFQ BOT       |                Feature           |
 | :-----------: | :--------------------------------: |
-|       ✅       | Sticker Creator                  |
-|       ✅       | Magernulis                       |
-|       ✅       | Pantun                           |
-|       ✅       | Youtube Downloader               |
-|       ✅       | Quotes                           |
-|       ✅       | Anime                            |
-|       ✅       | Suara Google                     |
+|       ✅       | Sticker CreatoR                  |
+|       ✅       | Kick Grup                        |
+|       ✅       | Bucin                            |
+|       ✅       | Promote Member                   |
+|       ✅       | Add                              |
+|       ✅       | Link                             |
+|       ✅       | Link Grup                        |
 |       ✅       | Quran                            |
-|       ✅       | Youtube MP3 Downloader           |
-|       ✅       | Intagram Downloader              |
-|       ✅       | Twitter Downloader               |
-|       ✅       | Facebook Downloader              |
-|       ✅       | Wikipedia                        |
-|       ✅       | Say                              |
+|       ✅       | Pengumuman                       |
+|       ✅       | List Online                      |
+|       ✅       | Fitnah Reply                     |
+|       ✅       | Jadi Bot Cepat                   |
+|       ✅       | Advanced                         |
+|       ✅       | Undefined                        |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
 
