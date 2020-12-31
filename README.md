@@ -26,7 +26,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 
 ## Features
 
-| NFQ| NUROTOMO       |                Feature           |
+| NFQ BOT       |                Feature           |
 | :-----------: | :--------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Magernulis                       |
