@@ -5,7 +5,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ ➢ User: *NFQ BOT*	
 │ ➢ 🎥 YouTube: https://www.youtube.com/c/DrawlNag
 │
-│ ➢ 📊 Github:https://github.com/Arya274/Arya-bot
+│ ➢ 📊 Github:https://github.com/Arya274/Arya-Bot
 │
 │ ➢ 🏠 Bot Group: https://chat.whatsapp.com/IlvkczVNtDO1lF1HjM4Ekp
 │
