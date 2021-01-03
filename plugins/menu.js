@@ -1,36 +1,21 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  let preview = await conn.generateLinkPreview('https://www.youtube.com/c/DrawlNag')
+  let preview = await conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
   conn.reply(m.chat, {...preview, text: `
-🤖 BOT NFQ 🤖
-Rec: ~Drawl Nag
-
-➸ Prefix:  *「 ${_p} 」*
-➸ Status: *「 Online 」*
-
+• ----- Menu ----- •
 ${more.repeat(1000)}
-
-*「 COMMAND 」*
+Universal:
 ${_p}menu
-${_p}help
-
-*「 FUN MENU 」*
 ${_p}qr <teks>
-${_p}stiker (tag image ‼️)
+${_p}stiker (caption)
 ${_p}bucin
-${_p}toimg
-
-*「 INTERNET 」*
 ${_p}ssweb <url>
 ${_p}sswebf <url>
 ${_p}google <pencarian>
 ${_p}googlef <pencarian>
 ${_p}readmore <teks>|<sembunyi>
 
-*「 NULIS 」*
-${_p}nulis (teks)
-
-*「 GROUP 」*
-${_p}add (62xxxxxxxxxx)
+Group:
+${_p}add nomor1,nomor2,dst
 ${_p}kick @mention
 ${_p}promote @mention
 ${_p}demote @mention
@@ -40,26 +25,17 @@ ${_p}hidetag <teks>
 ${_p}listonline [groupid]
 ${_p}grouplist
 
-*「  Experimental  」*
-${_p}jadibot 
-[kode login jika ada / kosongin]
-tinggal scan QR ❣️
+Experimental:
+${_p}jadibot [kode login jika ada / kosongin]
 
-*「 Advanced 」*
+Advanced:
 > return m
 
-=======「 INFO 」 =======
+• ----- Info ----- •
 Coded using *Vim* on Android \\w Termux
-Thanks To: *@Nurutomo*
-Github: 
-https://github.com/Arya274/Arya-Bot
-
-YouTube: 
-https://www.youtube.com/c/DrawlNag
-
-OwNer:
-*Wa.me/6288235435804*
-==================
+by *@Nurutomo*
+https://github.com/Nurutomo/wabot-aq
+• ---------------- •
 `.trim()}, m)
 }
 handler.command = /^(menu|help|\?)$/i
