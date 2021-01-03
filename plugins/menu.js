@@ -1,21 +1,34 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  let preview = await conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
-  conn.reply(m.chat, {...preview, text: `
-• ----- Menu ----- •
+  let preview = await conn.generateLinkPreview
+  conn.reply(m.chat, {, text: `
+🤖 BOT NFQ 🤖
+
+➸ Prefix:  *「 ${_p} 」*
+➸ Status: *「 Online 」*
+
 ${more.repeat(1000)}
-Universal:
+
+*「 COMMAND 」*
 ${_p}menu
+${_p}help
+
+*「 FUN MENU 」*
 ${_p}qr <teks>
-${_p}stiker (caption)
+${_p}stiker (tag image ‼️)
 ${_p}bucin
+
+*「 INTERNET 」*
 ${_p}ssweb <url>
 ${_p}sswebf <url>
 ${_p}google <pencarian>
 ${_p}googlef <pencarian>
 ${_p}readmore <teks>|<sembunyi>
 
-Group:
-${_p}add nomor1,nomor2,dst
+*「 NULIS 」*
+${_p}nulis (teks)
+
+*「 GROUP 」*
+${_p}add (62xxxxxxxxxx)
 ${_p}kick @mention
 ${_p}promote @mention
 ${_p}demote @mention
@@ -25,17 +38,26 @@ ${_p}hidetag <teks>
 ${_p}listonline [groupid]
 ${_p}grouplist
 
-Experimental:
-${_p}jadibot [kode login jika ada / kosongin]
+*「  Experimental  」*
+${_p}jadibot 
+[kode login jika ada / kosongin]
+tinggal scan QR ❣️
 
-Advanced:
-> return m
+*「 Advanced 」*
+> return m 'javascript eval' + m.sender
 
-• ----- Info ----- •
+=======「 INFO 」 =======
 Coded using *Vim* on Android \\w Termux
 by *@Nurutomo*
-https://github.com/Nurutomo/wabot-aq
-• ---------------- •
+Github: 
+https://github.com/Arya274/Arya-Bot
+
+YouTube: 
+https://www.youtube.com/c/DrawlNag
+
+OwNer:
+*Wa.me/6288235435804*
+==================
 `.trim()}, m)
 }
 handler.command = /^(menu|help|\?)$/i
