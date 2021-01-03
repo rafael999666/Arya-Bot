@@ -40,10 +40,10 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | List Online                      |
 |       ✅       | Fitnah Reply                     |
 |       ✅       | Jadi Bot Cepat                   |
-|       ✅       | Advanced                         |
+|       ✅       | HideTag                          |
 |       ✅       | Prefix Random                    |
 |       ✅       | Info                             |
-|       ✅       | Donate                           |
+|       ✅       | Google Font                      |
 
 ## Special Thanks to
 * [`NUROTOMO`](https://github.com/Nurotomo)
