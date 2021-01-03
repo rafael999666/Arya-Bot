@@ -16,6 +16,7 @@ ${_p}help
 ${_p}qr <teks>
 ${_p}stiker (tag image ‼️)
 ${_p}bucin
+${_p}toimg
 
 *「 INTERNET 」*
 ${_p}ssweb <url>
