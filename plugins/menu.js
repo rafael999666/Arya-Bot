@@ -1,6 +1,5 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  let preview = await conn.generateLinkPreview
-  conn.reply(m.chat, {, text: `
+  conn.reply(m.chat, `
 🤖 BOT NFQ 🤖
 
 ➸ Prefix:  *「 ${_p} 」*
