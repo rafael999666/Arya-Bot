@@ -5,8 +5,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ➸ Prefix:  *「 ${_p} 」*
 ➸ Status: *「 Online 」*
 
-${more.repeat(1000)}
-
 *「 COMMAND 」*
 ${_p}menu
 ${_p}help
@@ -73,5 +71,3 @@ handler.fail = null
 
 module.exports = handler
 
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
