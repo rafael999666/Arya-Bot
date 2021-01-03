@@ -1,7 +1,8 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  let preview = await conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
+  let preview = await conn.generateLinkPreview('https://www.youtube.com/c/DrawlNag')
   conn.reply(m.chat, {...preview, text: `
 🤖 BOT NFQ 🤖
+Rec: ~Drawl Nag
 
 ➸ Prefix:  *「 ${_p} 」*
 ➸ Status: *「 Online 」*
@@ -49,7 +50,7 @@ tinggal scan QR ❣️
 
 =======「 INFO 」 =======
 Coded using *Vim* on Android \\w Termux
-by *@Nurutomo*
+Thanks To: *@Nurutomo*
 Github: 
 https://github.com/Arya274/Arya-Bot
 
