@@ -46,7 +46,7 @@ ${_p}jadibot
 tinggal scan QR ❣️
 
 *「 Advanced 」*
-> return m 'javascript eval' + m.sender
+> return m
 
 =======「 INFO 」 =======
 Coded using *Vim* on Android \\w Termux
