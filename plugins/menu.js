@@ -1,48 +1,42 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  conn.reply(m.chat, `
-
-_Spesial Thanks To:_
-Nurotomo
-
-_Rec Bye:_
-Drawl Nag
-
-Owner: Wa.me/6288235435804
-
-*🎥 YouTube:* 
-https://www.youtube.com/c/DrawlNag
-
-*Github:*
-https://github.com/Arya274/Arya-Bot
-
-➸ Prefix:  *「 ${_p} 」*
-➸ Status: *「 Online 」*
-
-*「 COMMAND 」*
+  let preview = await conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
+  conn.reply(m.chat, {...preview, text: `
+• ----- Menu ----- •
+${more.repeat(1000)}
+Universal:
 ${_p}menu
-
-*「 FUN MENU 」*
 ${_p}qr <teks>
 ${_p}stiker (caption)
 ${_p}bucin
-${_p}ss (website)
+${_p}ssweb <url>
+${_p}sswebf <url>
+${_p}google <pencarian>
+${_p}googlef <pencarian>
+${_p}readmore <teks>|<sembunyi>
 
-*「 GROUP 」*
-${_p}add (Nomor)
+Group:
+${_p}add nomor1,nomor2,dst
 ${_p}kick @mention
 ${_p}promote @mention
 ${_p}demote @mention
 ${_p}linkgrup
 ${_p}pengumuman <teks>
+${_p}hidetag <teks>
 ${_p}listonline [groupid]
+${_p}grouplist
 
-
-*「  Experimental  」*
+Experimental:
 ${_p}jadibot [kode login jika ada / kosongin]
 
-*「 Advanced 」*
-> return 'javascript eval ' + m.sender
-`.trim(), m)
+Advanced:
+> return m
+
+• ----- Info ----- •
+Coded using *Vim* on Android \\w Termux
+by *@Nurutomo*
+https://github.com/Nurutomo/wabot-aq
+• ---------------- •
+`.trim()}, m)
 }
 handler.command = /^(menu|help|\?)$/i
 handler.owner = false
@@ -58,3 +52,5 @@ handler.fail = null
 
 module.exports = handler
 
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
